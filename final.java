@@ -374,6 +374,7 @@ public class creature{
             System.out.println("After " + world.est + " years later");
             if (starvingRate == true){
                 i--;
+                // I want to make if starving = 0, die, 1 is living, 2 is make their child
             }
             if (!b.equals("k") || people.size() <0){
             System.out.println("Game over");
