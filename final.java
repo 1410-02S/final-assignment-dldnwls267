@@ -292,7 +292,8 @@ public class creature{
             "Alyvia", "Chana", "Avah", "Donna", "Kaylah", "Ashtyn", "Karsyn", "Makaila", "Shayna", "Essence", "Leticia",
             "Miya", "Rory", "Desirae", "Kianna", "Laurel", "Neveah", "Amaris", "Hadassah", "Dania", "Hailie", "Jamiya",
             "Kathy", "Laylah", "Riya", "Diya", "Carleigh", "Iyana", "Kenley", "Sloane", "Elianna"};
-     static class World {
+     
+    static class World {
         int est = 0;
         String world = "newWorld";
         int startYear = 0;
@@ -317,7 +318,7 @@ public class creature{
             return starv;
         }
     }
-
+//NPC's ability
     static String startabl (String [] npcName){
         int level = 0;
         int muscle = 0;
